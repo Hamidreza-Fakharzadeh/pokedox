@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from './Logo';
 import CaughtPokemon from './CaughtPokemon';
-import BestPokemon from './BestPokemon';
+import BestPokemonFetcher from './BestPokemonFetcher';
 
 function App () {
   function logWhenClicked () {
@@ -10,7 +10,7 @@ function App () {
   return (
     <div>
       <Logo handleClick={logWhenClicked} appName="pokedex" />
-      <BestPokemon />
+      <BestPokemonFetcher />
       <CaughtPokemon />
     </div>
   );

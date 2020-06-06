@@ -1,5 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 
+let BestPokemonFetcher = () => {
+  const [pokemon, setPokemon] = useState (null);
+  return
+};
 let BestPokemon = () => {
   let abilities = ['Anticipation', 'Adaptability', 'Run-Away'];
   return (
@@ -15,4 +19,5 @@ let BestPokemon = () => {
     </div>
   );
 };
-export default BestPokemon;
+
+export default BestPokemonFetcher;
